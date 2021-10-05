@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{B945FE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{72B64E15-6614-4344-8C79-9BE4959565D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Client", "Client\Movies.Client\Movies.Client.csproj", "{EB02A8E8-8E00-4E43-8EB6-8546F4C41290}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Client", "Client\Movies.Client\Movies.Client.csproj", "{EB02A8E8-8E00-4E43-8EB6-8546F4C41290}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.API", "Server\Movies.API\Movies.API.csproj", "{3353B637-6AEC-49B2-A614-ADADEBD6CBF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{EB02A8E8-8E00-4E43-8EB6-8546F4C41290}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB02A8E8-8E00-4E43-8EB6-8546F4C41290}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB02A8E8-8E00-4E43-8EB6-8546F4C41290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3353B637-6AEC-49B2-A614-ADADEBD6CBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3353B637-6AEC-49B2-A614-ADADEBD6CBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3353B637-6AEC-49B2-A614-ADADEBD6CBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3353B637-6AEC-49B2-A614-ADADEBD6CBF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EB02A8E8-8E00-4E43-8EB6-8546F4C41290} = {B945FED1-E027-488C-89A7-D12B7F337027}
+		{3353B637-6AEC-49B2-A614-ADADEBD6CBF0} = {72B64E15-6614-4344-8C79-9BE4959565D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E673701C-6B81-4BF0-B65F-0F2AEDE88543}
